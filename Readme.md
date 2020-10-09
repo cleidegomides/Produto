@@ -29,7 +29,7 @@ ___
 ```bash
 
 #criar um novo container
-docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=xxxxx -d mysql
+docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
 
 #listar todos container
 docker container ls -a;
@@ -37,5 +37,5 @@ docker container ls -a;
 #Startar o container
 docker container start some-mysql;
 
-#Para o container
+#Parar o container
 docker container stop some-mysql.
